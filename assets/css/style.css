@@ -1,0 +1,27 @@
+main{
+    margin: auto;
+    max-width: 400px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
