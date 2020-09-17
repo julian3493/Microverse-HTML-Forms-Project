@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
     <header class = "flex-end">
-            <div class = "flex flex-column">
+            <div class = "flex-start flex-column">
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a>
             </div>
@@ -24,25 +26,28 @@
                 </a>
             </div>
             <div class = "flex">
-                <a href="#" class = "flex align-center"><img src = "assets/img/mint.png"  class = "company-icons" /> Mint</a>
-                <a href="#" class = "flex align-center">quickbooks</a>
-                <a href="#" class = "flex align-center">turbotax</a>
+                <a href="#" class = "flex align-center">
+                    <img src = "assets/img/mint.png"class = "company-icons" alt="mint icon"/> Mint</a>
+                <a href="#" class = "flex align-center">
+                    <img src="assets/img/qbicon.png" class="company-icons" alt="quickbooks icon"> Quickbooks</a>
+                <a href="#" class = "flex align-center">
+                    <img src="assets/img/turbotaxicon.png" class=" company-icons" alt="turbotax icon"> Turbotax</a>
             </div>
         </div>
-        <div class = "flex flex-column"> 
+        <div class = "flex flex-column border b-color-white"> 
             <div class = "flex flex-column">
-                <h1>Create an Intuit account</h1>
+                <h1 class="f-w600">Create an Intuit account</h1>
                 <p>One account for everything Intuit, including Mint.</p>
                 <a href="">Learn More</a>
             </div>
             <form action="#" class = "flex flex-column">
-                <label for="email">Email: </label>
-                <input type="email" id="email" name = "email" required>
-                <label for="phone">Phone (Recomended)</label>
+                <label class="f-label" for="email">Email address</label>
+                <input class="input-margin" type="email" id="email" name = "email" required>
+                <label class="f-label" for="phone">Phone (Recomended)</label>
                 <input type="number" id = "phone" name = "number">
-                <p>Standard call, messaging or data rates may apply.</p>
-                <label for="password">Password</label>
-                <input type="password" name = "password" id = "password" required>
+                <p class="f-label f-size-small">Standard call, messaging or data rates may apply.</p>
+                <label class="f-label" for="password">Password</label>
+                <input class="input-margin" type="password" name = "password" id = "password" required>
                 <button type="submit">Create Account</button>
             </form>
             <div class = "flex flex-column">

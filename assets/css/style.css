@@ -1,8 +1,26 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+}
 main{
     margin: auto;
     max-width: 400px;
 }
-
+p{
+    margin: 0;
+}
+.f-w600{
+    font-weight: 600;
+}
+.border{
+    border: 1px solid gray;
+    margin: 30px 0px;
+    min-height: 600px;
+}
+.b-color-white{
+    background-color: white;
+    padding: 10px 30px;
+}
 .flex-center{
     display: flex;
     justify-content: center;
@@ -20,6 +38,10 @@ main{
     display: flex;
     justify-content: flex-end;
 }
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
 
 .flex-column{
     flex-direction: column;
@@ -32,4 +54,15 @@ main{
 .company-icons{
     width: 30px;
     height: 30px;
+}
+
+.f-label{
+    text-align: left;
+    margin-bottom: 8px;
+}
+.input-margin{
+    margin-bottom: 8px;
+}
+.f-size-small{
+    font-size: 12px;
 }
