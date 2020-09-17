@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
     <header class = "flex-end">
-            <div class = "flex-start flex-column">
+            <div class = "flex-start flex-column h-smaller">
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a>
             </div>
             <div>
-                <button>Sign In</button>
+                <button> <i class="fa fa-lock"></i> Sign In</button>
             </div>        
     </header>
     <main class = "center">
@@ -44,13 +44,15 @@
                 <label class="f-label" for="email">Email address</label>
                 <input class="input-margin" type="email" id="email" name = "email" required>
                 <label class="f-label" for="phone">Phone (Recomended)</label>
-                <input type="number" id = "phone" name = "number">
-                <p class="f-label f-size-small">Standard call, messaging or data rates may apply.</p>
+                <input class = "input-margin" type="number" id = "phone" name = "number">
+                <p class="f-label">Standard call, messaging or data rates may apply.</p>
                 <label class="f-label" for="password">Password</label>
                 <input class="input-margin" type="password" name = "password" id = "password" required>
-                <button type="submit">Create Account</button>
+                <button type="submit">
+                    <i class="fa fa-lock"></i> Create Account
+                </button>
             </form>
-            <div class = "flex flex-column">
+            <div class = "flex flex-column italic">
                 <p>By clicking Create account, you agree to our</p>
                 <p><a href="#">Terms </a>and have read and acknowledge our <a href="#">Privacy</a></p>
                 <p><a href="#">Statement.</a></p>

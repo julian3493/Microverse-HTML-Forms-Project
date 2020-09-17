@@ -1,6 +1,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background-color: whitesmoke;
+    color: lightslategray;
 }
 main{
     margin: auto;
@@ -9,6 +10,7 @@ main{
 p{
     margin: 0;
 }
+
 .f-w600{
     font-weight: 600;
 }
@@ -54,6 +56,7 @@ p{
 .company-icons{
     width: 30px;
     height: 30px;
+    margin-right: 5px;
 }
 
 .f-label{
@@ -62,7 +65,51 @@ p{
 }
 .input-margin{
     margin-bottom: 8px;
+    height: 30px;
 }
-.f-size-small{
+
+p.f-label{
     font-size: 12px;
+}
+.h-smaller{
+    font-size: 13px;
+}
+.italic{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+form input{
+    border-radius: 5px;
+}
+
+header button{
+    border-radius: 5px;
+    background-color: #0077C5;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+}
+
+form button{
+    background-color: #0077C5;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer button{
+    background-color: #6B6C72;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+}
+
+footer a{
+    color: black;
 }
