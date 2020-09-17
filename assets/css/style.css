@@ -10,6 +10,10 @@ main{
 p{
     margin: 0;
 }
+.logo{
+    width: 100px;
+    margin-bottom: 10px;
+}
 
 .f-w600{
     font-weight: 600;
