@@ -7,6 +7,9 @@ main{
     display: flex;
     justify-content: center;
 }
+.align-center{
+    align-items: center;
+}
 
 .flex{
     display: flex;
@@ -24,4 +27,9 @@ main{
 
 .center{
     text-align: center;
+}
+
+.company-icons{
+    width: 30px;
+    height: 30px;
 }
