@@ -10,6 +10,11 @@ main {
 
 a {
   color: #1799e3;
+  text-decoration: none;
+}
+
+footer a {
+  color: lightslategray;
 }
 
 p {
@@ -117,10 +122,6 @@ p.f-label {
   font-style: italic;
 }
 
-a {
-  text-decoration: none;
-}
-
 form input {
   border-radius: 5px;
 }
@@ -156,8 +157,4 @@ form button {
   width: fit-content;
   bottom: 0;
   right: 0;
-}
-
-footer a {
-  color: lightslategray;
 }
