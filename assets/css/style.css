@@ -1,104 +1,116 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: lightslategray;
-}
+} 
+
 main {
   margin: auto;
   max-width: 400px;
-}
+} 
+
 p {
   margin: 0;
-}
+} 
+
 .logo {
   width: 100px;
   margin-bottom: 10px;
-}
+} 
 
 .f-w600 {
   font-weight: 600;
-}
+} 
+
 .border {
   border: 1px solid gray;
   border-bottom: 0;
   margin: 30px 0px 0px 0px;
   min-height: 600px;
-}
+} 
+
 .b-color-white {
   background-color: white;
   padding: 10px 30px;
-}
+} 
+
 .flex-center {
   display: flex;
   justify-content: center;
-}
+} 
+
 .align-center {
   align-items: center;
-}
+} 
 
 .flex {
   display: flex;
   justify-content: space-around;
-}
+} 
 
 .flex-end {
   display: flex;
   justify-content: flex-end;
-}
+} 
+
 .flex-start {
   display: flex;
   justify-content: flex-start;
-}
+} 
 
 .flex-column {
   flex-direction: column;
-}
+} 
 
 .center {
   text-align: center;
-}
+} 
 
 .company-icons {
   width: 30px;
   height: 30px;
   margin-right: 5px;
-}
+} 
 
 .b-gray {
   background-color: #eceef1;
-}
+} 
+
 .captcha {
   border: 1px solid gray;
   border-top: 0;
   padding: 25px;
   margin-bottom: 30px;
-}
+} 
 
 .f-label {
   text-align: left;
   margin-bottom: 8px;
-}
+} 
+
 .input-margin {
   margin-bottom: 8px;
   height: 30px;
-}
+} 
 
 p.f-label {
   font-size: 12px;
-}
+} 
+
 .h-smaller {
   font-size: 13px;
-}
+} 
+
 .italic {
   font-style: italic;
-}
+} 
 
 a {
   text-decoration: none;
-}
+} 
 
 form input {
   border-radius: 5px;
-}
+} 
 
 header button {
   border-radius: 5px;
@@ -107,7 +119,7 @@ header button {
   width: 100px;
   margin-left: 10px;
   color: white;
-}
+} 
 
 form button {
   background-color: #0077C5;
@@ -115,7 +127,7 @@ form button {
   color: white;
   border-radius: 5px;
   font-size: 18px;
-}
+} 
 
 .last-button {
   background-color: #6B6C72;
@@ -123,13 +135,15 @@ form button {
   height: 50px;
   color: white;
   margin-right: 20px;
-}
+} 
+
 .abs-pos {
   position: fixed;
   width: fit-content;
   bottom: 0;
   right: 0;
-}
+} 
+
 footer a {
   color: black;
 }
