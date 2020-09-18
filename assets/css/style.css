@@ -1,6 +1,5 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #eceef1;
     color: lightslategray;
 }
 main{
@@ -20,7 +19,8 @@ p{
 }
 .border{
     border: 1px solid gray;
-    margin: 30px 0px;
+    border-bottom: 0;
+    margin: 30px 0px 0px 0px;
     min-height: 600px;
 }
 .b-color-white{
@@ -61,6 +61,16 @@ p{
     width: 30px;
     height: 30px;
     margin-right: 5px;
+}
+
+.b-gray{
+    background-color: #eceef1;
+}
+.captcha{
+    border: 1px solid gray;
+    border-top: 0;
+    padding: 25px;
+    margin-bottom: 30px;
 }
 
 .f-label{
