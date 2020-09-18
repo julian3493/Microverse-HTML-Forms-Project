@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class = "b-gray">
+    <header class = "flex-end">
+            <div class = "flex-start flex-column h-smaller">
+                <p>Already have an Intuit account?</p>
+                <a href="#">I forgot my User ID or Password</a>
+            </div>
+            <div>
+                <button> <i class="fa fa-lock"></i> Sign In</button>
+            </div>        
+    </header>
+    <main class = "center">
+        <div class = "flex flex-column">
+            <div class = "flex">
+                <a href="#">
+                    <img src = "assets/img/logo.png" alt = "Intuit logo" class = "logo"/>
+                </a>
+            </div>
+            <div class = "flex products">
+                <a href="#" class = "flex align-center">
+                    <img src = "assets/img/mint.svg" class = "company-icons" alt="mint icon"/> Mint</a>
+                <a href="#" class = "flex align-center">
+                    <img src="assets/img/qbicon.png" class="company-icons" alt="quickbooks icon"> Quickbooks</a>
+                <a href="#" class = "flex align-center">
+                    <img src="assets/img/turbotaxicon.png" class=" company-icons" alt="turbotax icon"> Turbotax</a>
+            </div>
+        </div>
+        <div class = "flex flex-column border b-color-white"> 
+            <div class = "flex flex-column">
+                <h1 class="f-w600">Create an Intuit account</h1>
+                <p>One account for everything Intuit, including Mint.</p>
+                <a href="">Learn More</a>
+            </div>
+            <form action="#" class = "flex flex-column">
+                <label class="f-label" for="email">Email address</label>
+                <input class="input-margin" type="email" id="email" name = "email" required>
+                <label class="f-label" for="phone">Phone (Recomended)</label>
+                <input class = "input-margin" type="tel" id = "phone" name = "phone" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <p class="f-label">Standard call, messaging or data rates may apply.</p>
+                <label class="f-label" for="password">Password</label>
+                <input class="input-margin" type="password" name = "password" id = "password" required>
+                <button type="submit">
+                    <i class="fa fa-lock"></i> Create Account
+                </button>
+            </form>
+            <div class = "flex flex-column italic h-smaller">
+                <p>By clicking Create account, you agree to our</p>
+                <p><a href="#">Terms </a>and have read and acknowledge our <a href="#">Privacy</a></p>
+                <p><a href="#">Statement.</a></p>
+            </div>
+        </div>
+        <div class="flex-start b-gray captcha h-smaller">
+            Invisible reCAPTCHA by Google&nbsp;<a href="#">Privacy Policy</a>&nbsp;and&nbsp;<a href="#">Terms of Use</a>.
+        </div>
+    </main>
+    <footer class = "flex flex-column center">            
+            <p><a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a> </p>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+                    ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options 
+                subject to change without notice.</p>        
+    </footer>
+    <div class="flex-end abs-pos">
+        <button class="last-button">Privacy Settings</button>
+    </div>
+</body>
+</html>
